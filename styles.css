@@ -1,0 +1,73 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif; /* Sets font family */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text color for readability */
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333; /* Dark background for the header */
+    color: #fff; /* White text color */
+    padding: 1em 0; /* Padding for spacing */
+  }
+  
+  /* Navigation styles */
+  nav {
+    display: flex; /* Flexbox for aligning items */
+    justify-content: space-between; /* Spreads items across the header */
+    align-items: center; /* Vertically centers items */
+    padding: 0 2em; /* Adds padding on the left and right */
+  }
+  
+  /* Website title */
+  nav h1 {
+    margin: 0; /* Removes default margin */
+  }
+  
+  /* Navigation links */
+  nav ul {
+    list-style: none; /* Removes bullet points */
+    display: flex; /* Displays links in a row */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+  }
+  
+  nav ul li {
+    margin-left: 1em; /* Adds spacing between links */
+  }
+  
+  nav ul li a {
+    color: #fff; /* White link color */
+    text-decoration: none; /* Removes underline from links */
+  }
+  
+  /* Main content styles */
+  main {
+    padding: 2em; /* Adds spacing around the main content */
+  }
+  
+  /* Section styles */
+  section {
+    margin-bottom: 3em; /* Adds spacing between sections */
+  }
+  
+  /* Section headings */
+  h2 {
+    color: #333; /* Dark gray color for section headings */
+  }
+  
+  /* Article styles */
+  article {
+    margin-bottom: 2em; /* Adds spacing between articles */
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333; /* Dark background for footer */
+    color: #fff; /* White text color */
+    text-align: center; /* Centers text */
+    padding: 1em 0; /* Adds spacing inside footer */
+  }
